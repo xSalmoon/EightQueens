@@ -57,7 +57,6 @@ public class Queen {
         directions[2] = size+3;
         board = new int[(size+2)*(size+2)];
         int lastLine = (size+2)*(size+1);
-        // 設定盤面上的哨兵
         for (int i=0; i< size+2; i++) { 
             board[i] = -1;
             board[lastLine+i] = -1;
